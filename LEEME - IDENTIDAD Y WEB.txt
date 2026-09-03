@@ -1,0 +1,23 @@
+LAZO — IDENTIDAD + WEB V1.0
+
+ENTREGABLES
+1. brand/LAZO - MINI MANUAL DE IDENTIDAD V1.0.docx
+2. brand/LAZO_ejecutiva_oficial.png
+3. brand/LAZO_informal.png
+4. CONTENIDO_WEB_LAZO.md
+5. web/ — landing estática lista para GitHub Pages
+
+ANTES DE PUBLICAR LA WEB
+- Editar web/config.js con número de WhatsApp, correo y dominio.
+- Sustituir web/aviso-privacidad.html por la versión LEG-004 aprobada por el abogado.
+- Revisar cobertura y servicios que efectivamente puedan ofrecerse en el soft launch.
+- Comprar/configurar dominio si se desea URL propia.
+
+DECISIONES DE MARCA
+Descriptor: LAZO — Red de cuidados profesionales.
+Frase principal: Cuidado profesional, cerca de quienes más importan.
+Frase secundaria: Personas que conectan. Personas que cuidan.
+
+USO DE LOGOS
+LAZO_ejecutiva_oficial: comunicación institucional, web, documentos, alianzas.
+LAZO_informal: comunidad, redes, padrón, stickers y merch.
