@@ -1,208 +1,526 @@
 <!doctype html>
 <html lang="es-MX">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LAZO | Red de cuidados profesionales en Guadalajara</title>
-  <meta name="description" content="LAZO coordina servicios de cuidado y enfermería domiciliaria e intrahospitalaria en la Zona Metropolitana de Guadalajara. Solicita información por WhatsApp.">
-  <meta name="theme-color" content="#011756">
-  <meta property="og:title" content="LAZO | Red de cuidados profesionales">
-  <meta property="og:description" content="Cuidado profesional, cerca de quienes más importan.">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="es_MX">
-  <meta property="og:image" content="assets/LAZO_ejecutiva_oficial.png">
-  <link rel="icon" href="assets/favicon.png" type="image/png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <script defer src="config.js"></script>
-  <script defer src="app.js"></script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "LAZO",
-    "description": "Red de cuidados profesionales en la Zona Metropolitana de Guadalajara.",
-    "areaServed": "Zona Metropolitana de Guadalajara, Jalisco, México"
-  }
-  </script>
-</head>
-<body>
-  <a class="skip-link" href="#contenido">Saltar al contenido</a>
-  <header class="site-header" id="inicio">
-    <div class="container nav-wrap">
-      <a class="brand" href="#inicio" aria-label="LAZO, inicio">
-        <img src="assets/favicon.png" alt="" width="48" height="48">
-        <span>LAZO</span>
-      </a>
-      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú">
-        <span></span><span></span><span></span>
-      </button>
-      <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
-        <a href="#servicios">Servicios</a>
-        <a href="#como-funciona">Cómo funciona</a>
-        <a href="#por-que-lazo">Por qué LAZO</a>
-        <a href="#padron">Únete al padrón</a>
-        <a href="#faq">Preguntas</a>
-      </nav>
-      <a class="button button-small whatsapp-link service-link nav-cta" href="#">Solicitar servicio</a>
-    </div>
-  </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LAZO | Red de cuidados profesionales en Guadalajara</title>
+    <meta
+      name="description"
+      content="LAZO coordina servicios de cuidado y enfermería domiciliaria e intrahospitalaria en la Zona Metropolitana de Guadalajara. Solicita información por WhatsApp."
+    />
+    <meta name="theme-color" content="#011756" />
+    <meta property="og:title" content="LAZO | Red de cuidados profesionales" />
+    <meta
+      property="og:description"
+      content="Cuidado profesional, cerca de quienes más importan."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_MX" />
+    <meta property="og:image" content="assets/LAZO_ejecutiva_oficial.png" />
+    <link rel="icon" href="assets/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="config.js"></script>
+    <script defer src="app.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "LAZO",
+        "description": "Red de cuidados profesionales en la Zona Metropolitana de Guadalajara.",
+        "areaServed": "Zona Metropolitana de Guadalajara, Jalisco, México"
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header" id="inicio">
+      <div class="container nav-wrap">
+        <a class="brand" href="#inicio" aria-label="LAZO, inicio">
+          <img src="assets/favicon.png" alt="" width="48" height="48" />
+          <span>LAZO</span>
+        </a>
+        <button
+          class="menu-toggle"
+          aria-expanded="false"
+          aria-controls="main-nav"
+          aria-label="Abrir menú"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+          <a href="#servicios">Servicios</a>
+          <a href="#como-funciona">Cómo funciona</a>
+          <a href="#por-que-lazo">Por qué LAZO</a>
+          <a href="#padron">Únete al padrón</a>
+          <a href="#faq">Preguntas</a>
+        </nav>
+        <a
+          class="button button-small whatsapp-link service-link nav-cta"
+          href="#"
+          >Solicitar servicio</a
+        >
+      </div>
+    </header>
 
-  <main id="contenido">
-    <section class="hero">
-      <div class="hero-glow hero-glow-one"></div>
-      <div class="hero-glow hero-glow-two"></div>
-      <div class="container hero-grid">
-        <div class="hero-copy reveal">
-          <span class="eyebrow"><span class="dot"></span> Red de cuidados profesionales</span>
-          <h1>Cuidado profesional, <span>cerca de quienes más importan.</span></h1>
-          <p class="hero-lead">Coordinamos servicios de atención, cuidado y enfermería con perfiles previamente registrados, buscando que cada necesidad encuentre una opción compatible, clara y confiable.</p>
-          <div class="hero-actions">
-            <a class="button whatsapp-link service-link" href="#">Solicitar un servicio <span aria-hidden="true">→</span></a>
-            <a class="button button-ghost" href="#servicios">Conocer servicios</a>
+    <main id="contenido">
+      <section class="hero">
+        <div class="hero-glow hero-glow-one"></div>
+        <div class="hero-glow hero-glow-two"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <span class="eyebrow"
+              ><span class="dot"></span> Red de cuidados profesionales</span
+            >
+            <h1>
+              Cuidado profesional, <span>cerca de quienes más importan.</span>
+            </h1>
+            <p class="hero-lead">
+              Coordinamos servicios de atención, cuidado y enfermería con
+              perfiles previamente registrados, buscando que cada necesidad
+              encuentre una opción compatible, clara y confiable.
+            </p>
+            <div class="hero-actions">
+              <a class="button whatsapp-link service-link" href="#"
+                >Solicitar un servicio <span aria-hidden="true">→</span></a
+              >
+              <a class="button button-ghost" href="#servicios"
+                >Conocer servicios</a
+              >
+            </div>
+            <div class="hero-meta" aria-label="Características principales">
+              <span>Atención domiciliaria</span>
+              <span>Intrahospitalaria</span>
+              <span>ZMG</span>
+            </div>
           </div>
-          <div class="hero-meta" aria-label="Características principales">
-            <span>Atención domiciliaria</span>
-            <span>Intrahospitalaria</span>
-            <span>ZMG</span>
+          <div class="hero-visual reveal reveal-delay">
+            <div class="logo-card">
+              <img
+                src="assets/LAZO_ejecutiva_oficial.png"
+                alt="LAZO, red de cuidados profesionales"
+              />
+            </div>
+            <div class="floating-card card-one">
+              <strong>Atención humana</strong><small>con procesos claros</small>
+            </div>
+            <div class="floating-card card-two">
+              <strong>Perfiles compatibles</strong
+              ><small>según la necesidad</small>
+            </div>
           </div>
         </div>
-        <div class="hero-visual reveal reveal-delay">
-          <div class="logo-card">
-            <img src="assets/LAZO_ejecutiva_oficial.png" alt="LAZO, red de cuidados profesionales">
+      </section>
+
+      <section class="trust-strip" aria-label="Cobertura y enfoque">
+        <div class="container trust-grid">
+          <div><strong>ZMG</strong><span>Cobertura inicial</span></div>
+          <div>
+            <strong>4 · 8 · 12 · 24 h</strong
+            ><span>Modalidades sujetas a valoración</span>
           </div>
-          <div class="floating-card card-one"><strong>Atención humana</strong><small>con procesos claros</small></div>
-          <div class="floating-card card-two"><strong>Perfiles compatibles</strong><small>según la necesidad</small></div>
+          <div>
+            <strong>Seguimiento</strong
+            ><span>Coordinación durante el servicio</span>
+          </div>
+          <div>
+            <strong>WhatsApp</strong><span>Atención directa y sencilla</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="servicios" class="section section-light">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="eyebrow">Servicios</span>
+            <h2>
+              Acompañamos a quienes cuidan y atendemos a quienes lo necesitan.
+            </h2>
+            <p>
+              La valoración inicial permite orientar el perfil, las actividades
+              y la modalidad más adecuada para cada caso.
+            </p>
+          </div>
+          <div class="service-grid">
+            <article class="service-card reveal">
+              <span class="service-index">01</span>
+              <h3>Cuidado domiciliario</h3>
+              <p>
+                Acompañamiento y apoyo en casa para personas que necesitan
+                supervisión, asistencia cotidiana o ayuda con actividades de la
+                vida diaria.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-index">02</span>
+              <h3>Enfermería domiciliaria</h3>
+              <p>
+                Servicios de enfermería sujetos a valoración, perfil acreditado
+                y alcance profesional correspondiente.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-index">03</span>
+              <h3>Atención intrahospitalaria</h3>
+              <p>
+                Acompañamiento y apoyo durante una estancia hospitalaria,
+                respetando las reglas de la institución y el plan de atención
+                existente.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-index">04</span>
+              <h3>Adulto mayor</h3>
+              <p>
+                Apoyo en movilidad, higiene, alimentación, compañía y vigilancia
+                general conforme al nivel de dependencia y perfil requerido.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-index">05</span>
+              <h3>Recuperación y postoperatorio</h3>
+              <p>
+                Acompañamiento durante periodos de recuperación y seguimiento de
+                indicaciones existentes, conforme al perfil seleccionado.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-index">06</span>
+              <h3>Materno–neonato</h3>
+              <p>
+                Acompañamiento en hospitalización, posparto y cuidado inicial
+                madre–recién nacido, sujeto a valoración y disponibilidad.
+              </p>
+            </article>
+            <article class="service-card reveal service-card-wide">
+              <span class="service-index">07</span>
+              <h3>Servicios especializados</h3>
+              <p>
+                Cuando la necesidad requiere experiencia, formación o
+                competencias específicas, buscamos dentro de la red un perfil
+                compatible. La disponibilidad y el alcance se confirman antes de
+                contratar.
+              </p>
+            </article>
+          </div>
+          <div class="section-cta reveal">
+            <div>
+              <strong>¿No sabes qué perfil necesitas?</strong
+              ><span
+                >Cuéntanos la situación. La valoración inicial existe justamente
+                para eso.</span
+              >
+            </div>
+            <a class="text-link whatsapp-link service-link" href="#"
+              >Hablar por WhatsApp →</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="como-funciona" class="section process-section">
+        <div class="container">
+          <div class="section-head centered reveal">
+            <span class="eyebrow">Cómo funciona</span>
+            <h2>Un proceso simple, con trazabilidad detrás.</h2>
+            <p>
+              Para la familia debe sentirse sencillo. La organización y los
+              registros ocurren detrás de escena.
+            </p>
+          </div>
+          <ol class="process-grid">
+            <li class="process-step reveal">
+              <span>1</span>
+              <h3>Cuéntanos qué necesitas</h3>
+              <p>
+                Ubicación, fecha, horario y una descripción general del
+                servicio.
+              </p>
+            </li>
+            <li class="process-step reveal">
+              <span>2</span>
+              <h3>Valoramos el servicio</h3>
+              <p>
+                Recabamos únicamente la información necesaria para definir el
+                nivel de apoyo.
+              </p>
+            </li>
+            <li class="process-step reveal">
+              <span>3</span>
+              <h3>Definimos el perfil</h3>
+              <p>
+                Orientamos si el caso requiere cuidador, auxiliar/técnico,
+                licenciado o un perfil especializado.
+              </p>
+            </li>
+            <li class="process-step reveal">
+              <span>4</span>
+              <h3>Confirmamos condiciones</h3>
+              <p>
+                Recibes cotización, duración, alcance, condiciones y forma de
+                pago.
+              </p>
+            </li>
+            <li class="process-step reveal">
+              <span>5</span>
+              <h3>Coordinamos disponibilidad</h3>
+              <p>
+                Buscamos dentro de la red a prestadores compatibles que acepten
+                voluntariamente la oportunidad.
+              </p>
+            </li>
+            <li class="process-step reveal">
+              <span>6</span>
+              <h3>Damos seguimiento</h3>
+              <p>
+                Confirmamos inicio, atendemos incidencias operativas y
+                documentamos el cierre.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="por-que-lazo" class="section why-section">
+        <div class="container why-grid">
+          <div class="why-copy reveal">
+            <span class="eyebrow light">Por qué LAZO</span>
+            <h2>
+              Un vínculo de confianza necesita más que un número de teléfono.
+            </h2>
+            <p>
+              LAZO busca combinar el trato humano con una operación organizada:
+              valoración, documentación, coordinación y seguimiento.
+            </p>
+            <a class="button button-cream whatsapp-link service-link" href="#"
+              >Solicitar información</a
+            >
+          </div>
+          <div class="why-list">
+            <article class="why-item reveal">
+              <span>01</span>
+              <div>
+                <h3>Perfiles registrados</h3>
+                <p>
+                  La red se construye con expedientes, validación documental y
+                  clasificación por perfil.
+                </p>
+              </div>
+            </article>
+            <article class="why-item reveal">
+              <span>02</span>
+              <div>
+                <h3>Información antes de confirmar</h3>
+                <p>
+                  Horario, ubicación, duración y condiciones importantes se
+                  definen antes del inicio.
+                </p>
+              </div>
+            </article>
+            <article class="why-item reveal">
+              <span>03</span>
+              <div>
+                <h3>Seguimiento operativo</h3>
+                <p>
+                  El servicio no desaparece de nuestro radar una vez que
+                  comienza.
+                </p>
+              </div>
+            </article>
+            <article class="why-item reveal">
+              <span>04</span>
+              <div>
+                <h3>Privacidad y límites</h3>
+                <p>
+                  La información del paciente se comparte únicamente cuando es
+                  necesaria para coordinar y prestar el servicio.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section id="padron" class="section provider-section">
+        <div class="container provider-grid">
+          <div class="provider-visual reveal">
+            <div class="mascot-orbit"></div>
+            <img
+              src="assets/LAZO_informal.png"
+              alt="Personaje informal de LAZO"
+            />
+          </div>
+          <div class="provider-copy reveal">
+            <span class="eyebrow">Padrón fundador</span>
+            <h2>¿Eres profesional del cuidado o enfermería?</h2>
+            <p>
+              Estamos integrando una red de prestadores independientes en la
+              Zona Metropolitana de Guadalajara. Recibes oportunidades de
+              servicio con información previa y decides cuáles te interesa
+              aceptar.
+            </p>
+            <ul class="check-list">
+              <li>Sin exclusividad por pertenecer al padrón.</li>
+              <li>Cada oportunidad se acepta de forma individual.</li>
+              <li>
+                Clasificación según documentación, experiencia y perfil
+                acreditado.
+              </li>
+              <li>
+                Servicios domiciliarios e intrahospitalarios sujetos a
+                disponibilidad.
+              </li>
+            </ul>
+            <a class="button whatsapp-link provider-link" href="#"
+              >Quiero integrarme al padrón <span aria-hidden="true">→</span></a
+            >
+            <p class="fine-print">
+              El registro en el padrón no garantiza un número mínimo de
+              servicios ni ingresos. Los requisitos dependen del perfil.
+            </p>
+          </div>
+        </div>
+      </section> -->
+
+      <section id="faq" class="section faq-section">
+        <div class="container faq-grid">
+          <div class="section-head reveal">
+            <span class="eyebrow">Preguntas frecuentes</span>
+            <h2>Lo importante, claro desde el principio.</h2>
+            <p>
+              Si tu caso no aparece aquí, escríbenos y lo revisamos contigo.
+            </p>
+          </div>
+          <div class="faq-list">
+            <details class="reveal">
+              <summary>¿En qué zonas trabajan?</summary>
+              <p>
+                La cobertura inicial está enfocada en la Zona Metropolitana de
+                Guadalajara y depende de disponibilidad, horario y perfil
+                solicitado.
+              </p>
+            </details>
+            <details class="reveal">
+              <summary>¿Puedo pedir un servicio urgente?</summary>
+              <p>
+                Sí podemos revisar solicitudes con poca anticipación, pero la
+                cobertura no se garantiza hasta contar con disponibilidad
+                confirmada. LAZO no sustituye servicios de emergencia; ante una
+                urgencia médica debe activarse el recurso correspondiente.
+              </p>
+            </details>
+            <details class="reveal">
+              <summary>¿Cómo se define el precio?</summary>
+              <p>
+                Depende de duración, perfil requerido, características del
+                servicio y condiciones particulares. Enviamos una cotización
+                antes de confirmar.
+              </p>
+            </details>
+            <details class="reveal">
+              <summary>¿Puedo elegir el perfil del prestador?</summary>
+              <p>
+                Tomamos en cuenta la solicitud del cliente, pero el perfil final
+                debe ser compatible con las necesidades identificadas, la
+                documentación y la disponibilidad real.
+              </p>
+            </details>
+            <details class="reveal">
+              <summary>¿Qué pasa si el prestador no puede continuar?</summary>
+              <p>
+                La coordinación revisa la situación y, cuando sea viable, busca
+                una sustitución compatible sujeta a disponibilidad y condiciones
+                del servicio.
+              </p>
+            </details>
+            <details class="reveal">
+              <summary>¿LAZO es un servicio de urgencias?</summary>
+              <p>
+                No. Nuestro servicio se enfoca en la coordinación de cuidados y
+                enfermería programada o solicitada con disponibilidad. Las
+                emergencias deben atenderse mediante los servicios
+                correspondientes.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section final-cta">
+        <div class="container final-card reveal">
+          <div>
+            <span class="eyebrow light">Hablemos</span>
+            <h2>Cuéntanos qué necesitas. Empezamos por entender el caso.</h2>
+            <p>
+              No necesitas saber qué perfil pedir. Para eso está la valoración
+              inicial.
+            </p>
+          </div>
+          <a class="button button-cream whatsapp-link service-link" href="#"
+            >Hablar con LAZO por WhatsApp</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img src="assets/LAZO_ejecutiva_oficial.png" alt="LAZO" />
+          <p>Red de cuidados profesionales.</p>
+        </div>
+        <div>
+          <h3>Explora</h3>
+          <a href="#servicios">Servicios</a
+          ><a href="#como-funciona">Cómo funciona</a><a href="#padron">Padrón</a
+          ><a href="#faq">Preguntas</a>
+        </div>
+        <div>
+          <h3>Contacto</h3>
+          <a class="whatsapp-link service-link" href="#">WhatsApp</a
+          ><a id="email-link" href="mailto:contacto@tudominio.mx"
+            >contacto@tudominio.mx</a
+          ><span id="city-label">Zona Metropolitana de Guadalajara</span>
+        </div>
+        <div>
+          <h3>Legal</h3>
+          <a href="aviso-privacidad.html">Aviso de privacidad</a>
+          <p class="footer-note">LAZO no sustituye servicios de emergencia.</p>
         </div>
       </div>
-    </section>
-
-    <section class="trust-strip" aria-label="Cobertura y enfoque">
-      <div class="container trust-grid">
-        <div><strong>ZMG</strong><span>Cobertura inicial</span></div>
-        <div><strong>4 · 8 · 12 · 24 h</strong><span>Modalidades sujetas a valoración</span></div>
-        <div><strong>Seguimiento</strong><span>Coordinación durante el servicio</span></div>
-        <div><strong>WhatsApp</strong><span>Atención directa y sencilla</span></div>
+      <div class="container footer-bottom">
+        <span
+          >© <span id="year"></span> LAZO. Todos los derechos reservados.</span
+        ><span>Personas que conectan. Personas que cuidan.</span>
       </div>
-    </section>
+    </footer>
 
-    <section id="servicios" class="section section-light">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="eyebrow">Servicios</span>
-          <h2>No vendemos “turnos”. Ayudamos a resolver situaciones reales de cuidado.</h2>
-          <p>La valoración inicial permite orientar el perfil y la modalidad más adecuados para cada caso.</p>
-        </div>
-        <div class="service-grid">
-          <article class="service-card reveal"><span class="service-index">01</span><h3>Cuidado domiciliario</h3><p>Acompañamiento y apoyo en casa para personas que necesitan supervisión, asistencia cotidiana o ayuda con actividades de la vida diaria.</p></article>
-          <article class="service-card reveal"><span class="service-index">02</span><h3>Enfermería domiciliaria</h3><p>Servicios de enfermería sujetos a valoración, perfil acreditado y alcance profesional correspondiente.</p></article>
-          <article class="service-card reveal"><span class="service-index">03</span><h3>Atención intrahospitalaria</h3><p>Acompañamiento y apoyo durante una estancia hospitalaria, respetando las reglas de la institución y el plan de atención existente.</p></article>
-          <article class="service-card reveal"><span class="service-index">04</span><h3>Adulto mayor</h3><p>Apoyo en movilidad, higiene, alimentación, compañía y vigilancia general conforme al nivel de dependencia y perfil requerido.</p></article>
-          <article class="service-card reveal"><span class="service-index">05</span><h3>Recuperación y postoperatorio</h3><p>Acompañamiento durante periodos de recuperación y seguimiento de indicaciones existentes, conforme al perfil seleccionado.</p></article>
-          <article class="service-card reveal"><span class="service-index">06</span><h3>Materno–neonato</h3><p>Acompañamiento en hospitalización, posparto y cuidado inicial madre–recién nacido, sujeto a valoración y disponibilidad.</p></article>
-          <article class="service-card reveal service-card-wide"><span class="service-index">07</span><h3>Servicios especializados</h3><p>Cuando la necesidad requiere experiencia, formación o competencias específicas, buscamos dentro de la red un perfil compatible. La disponibilidad y el alcance se confirman antes de contratar.</p></article>
-        </div>
-        <div class="section-cta reveal">
-          <div><strong>¿No sabes qué perfil necesitas?</strong><span>Cuéntanos la situación. La valoración inicial existe justamente para eso.</span></div>
-          <a class="text-link whatsapp-link service-link" href="#">Hablar por WhatsApp →</a>
-        </div>
-      </div>
-    </section>
+    <!-- <a class="floating-whatsapp whatsapp-link service-link" href="#" aria-label="Solicitar un servicio por WhatsApp">WA</a> -->
+    <a
+      class="floating-whatsapp whatsapp-link service-link"
+      href="#"
+      aria-label="Abrir chat de atención por WhatsApp"
+      title="Chatea con nosotros por WhatsApp"
+    >
+      <svg
+        viewBox="0 0 24 24"
+        width="30"
+        height="30"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <path
+          fill="currentColor"
+          d="M12 2a10 10 0 0 0-8.66 15L2 22l5.15-1.3A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.08-1.12l-.35-.21-2.72.69.72-2.64-.23-.37A8 8 0 1 1 12 20Zm4.38-5.18c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.93-1.19-.71-.63-1.19-1.42-1.33-1.66-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.41-.54-.42h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.69 2.58 4.1 3.62.57.25 1.02.39 1.37.5.58.18 1.1.16 1.51.1.46-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28Z"
+        />
+      </svg>
 
-    <section id="como-funciona" class="section process-section">
-      <div class="container">
-        <div class="section-head centered reveal">
-          <span class="eyebrow">Cómo funciona</span>
-          <h2>Un proceso simple, con trazabilidad detrás.</h2>
-          <p>Para la familia debe sentirse sencillo. La organización y los registros ocurren detrás de escena.</p>
-        </div>
-        <ol class="process-grid">
-          <li class="process-step reveal"><span>1</span><h3>Cuéntanos qué necesitas</h3><p>Ubicación, fecha, horario y una descripción general de la situación.</p></li>
-          <li class="process-step reveal"><span>2</span><h3>Valoramos el servicio</h3><p>Recabamos únicamente la información necesaria para definir el nivel de apoyo.</p></li>
-          <li class="process-step reveal"><span>3</span><h3>Definimos el perfil</h3><p>Orientamos si el caso requiere cuidador, auxiliar/técnico, licenciado o un perfil especializado.</p></li>
-          <li class="process-step reveal"><span>4</span><h3>Confirmamos condiciones</h3><p>Recibes cotización, duración, alcance, condiciones y forma de pago.</p></li>
-          <li class="process-step reveal"><span>5</span><h3>Coordinamos disponibilidad</h3><p>Buscamos dentro de la red a prestadores compatibles que acepten voluntariamente la oportunidad.</p></li>
-          <li class="process-step reveal"><span>6</span><h3>Damos seguimiento</h3><p>Confirmamos inicio, atendemos incidencias operativas y documentamos el cierre.</p></li>
-        </ol>
-      </div>
-    </section>
-
-    <section id="por-que-lazo" class="section why-section">
-      <div class="container why-grid">
-        <div class="why-copy reveal">
-          <span class="eyebrow light">Por qué LAZO</span>
-          <h2>Un vínculo de confianza necesita más que un número de teléfono.</h2>
-          <p>LAZO busca combinar el trato humano con una operación organizada: valoración, documentación, coordinación y seguimiento.</p>
-          <a class="button button-cream whatsapp-link service-link" href="#">Solicitar información</a>
-        </div>
-        <div class="why-list">
-          <article class="why-item reveal"><span>01</span><div><h3>Perfiles registrados</h3><p>La red se construye con expedientes, validación documental y clasificación por perfil.</p></div></article>
-          <article class="why-item reveal"><span>02</span><div><h3>Información antes de confirmar</h3><p>Horario, ubicación, duración y condiciones importantes se definen antes del inicio.</p></div></article>
-          <article class="why-item reveal"><span>03</span><div><h3>Seguimiento operativo</h3><p>El servicio no desaparece de nuestro radar una vez que comienza.</p></div></article>
-          <article class="why-item reveal"><span>04</span><div><h3>Privacidad y límites</h3><p>La información del paciente se comparte únicamente cuando es necesaria para coordinar y prestar el servicio.</p></div></article>
-        </div>
-      </div>
-    </section>
-
-    <section id="padron" class="section provider-section">
-      <div class="container provider-grid">
-        <div class="provider-visual reveal">
-          <div class="mascot-orbit"></div>
-          <img src="assets/LAZO_informal.png" alt="Personaje informal de LAZO">
-        </div>
-        <div class="provider-copy reveal">
-          <span class="eyebrow">Padrón fundador</span>
-          <h2>¿Eres profesional del cuidado o enfermería?</h2>
-          <p>Estamos integrando una red de prestadores independientes en la Zona Metropolitana de Guadalajara. Recibes oportunidades de servicio con información previa y decides cuáles te interesa aceptar.</p>
-          <ul class="check-list">
-            <li>Sin exclusividad por pertenecer al padrón.</li>
-            <li>Cada oportunidad se acepta de forma individual.</li>
-            <li>Clasificación según documentación, experiencia y perfil acreditado.</li>
-            <li>Servicios domiciliarios e intrahospitalarios sujetos a disponibilidad.</li>
-          </ul>
-          <a class="button whatsapp-link provider-link" href="#">Quiero integrarme al padrón <span aria-hidden="true">→</span></a>
-          <p class="fine-print">El registro en el padrón no garantiza un número mínimo de servicios ni ingresos. Los requisitos dependen del perfil.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="faq" class="section faq-section">
-      <div class="container faq-grid">
-        <div class="section-head reveal"><span class="eyebrow">Preguntas frecuentes</span><h2>Lo importante, claro desde el principio.</h2><p>Si tu caso no aparece aquí, escríbenos y lo revisamos contigo.</p></div>
-        <div class="faq-list">
-          <details class="reveal"><summary>¿En qué zonas trabajan?</summary><p>La cobertura inicial está enfocada en la Zona Metropolitana de Guadalajara y depende de disponibilidad, horario y perfil solicitado.</p></details>
-          <details class="reveal"><summary>¿Puedo pedir un servicio urgente?</summary><p>Sí podemos revisar solicitudes con poca anticipación, pero la cobertura no se garantiza hasta contar con disponibilidad confirmada. LAZO no sustituye servicios de emergencia; ante una urgencia médica debe activarse el recurso correspondiente.</p></details>
-          <details class="reveal"><summary>¿Cómo se define el precio?</summary><p>Depende de duración, perfil requerido, características del servicio y condiciones particulares. Enviamos una cotización antes de confirmar.</p></details>
-          <details class="reveal"><summary>¿Puedo elegir el perfil del prestador?</summary><p>Tomamos en cuenta la solicitud del cliente, pero el perfil final debe ser compatible con las necesidades identificadas, la documentación y la disponibilidad real.</p></details>
-          <details class="reveal"><summary>¿Qué pasa si el prestador no puede continuar?</summary><p>La coordinación revisa la situación y, cuando sea viable, busca una sustitución compatible sujeta a disponibilidad y condiciones del servicio.</p></details>
-          <details class="reveal"><summary>¿LAZO es un servicio de urgencias?</summary><p>No. Nuestro servicio se enfoca en la coordinación de cuidados y enfermería programada o solicitada con disponibilidad. Las emergencias deben atenderse mediante los servicios correspondientes.</p></details>
-        </div>
-      </div>
-    </section>
-
-    <section class="section final-cta">
-      <div class="container final-card reveal">
-        <div><span class="eyebrow light">Hablemos</span><h2>Cuéntanos qué necesitas. Empezamos por entender el caso.</h2><p>No necesitas saber qué perfil pedir. Para eso está la valoración inicial.</p></div>
-        <a class="button button-cream whatsapp-link service-link" href="#">Hablar con LAZO por WhatsApp</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <img src="assets/LAZO_ejecutiva_oficial.png" alt="LAZO">
-        <p>Red de cuidados profesionales.</p>
-      </div>
-      <div><h3>Explora</h3><a href="#servicios">Servicios</a><a href="#como-funciona">Cómo funciona</a><a href="#padron">Padrón</a><a href="#faq">Preguntas</a></div>
-      <div><h3>Contacto</h3><a class="whatsapp-link service-link" href="#">WhatsApp</a><a id="email-link" href="mailto:contacto@tudominio.mx">contacto@tudominio.mx</a><span id="city-label">Zona Metropolitana de Guadalajara</span></div>
-      <div><h3>Legal</h3><a href="aviso-privacidad.html">Aviso de privacidad</a><p class="footer-note">LAZO no sustituye servicios de emergencia.</p></div>
-    </div>
-    <div class="container footer-bottom"><span>© <span id="year"></span> LAZO. Todos los derechos reservados.</span><span>Personas que conectan. Personas que cuidan.</span></div>
-  </footer>
-
-  <a class="floating-whatsapp whatsapp-link service-link" href="#" aria-label="Solicitar un servicio por WhatsApp">WA</a>
-</body>
+      <span class="floating-whatsapp__tooltip">Chatea con nosotros</span>
+    </a>
+  </body>
 </html>

@@ -6,7 +6,7 @@
    ========================================================= */
 window.LAZO_CONFIG = {
   whatsappNumber: "521XXXXXXXXXX",
-  email: "contacto@tudominio.mx",
+  email: "lazonursing@gmail.com",
   website: "https://tudominio.mx",
   city: "Zona Metropolitana de Guadalajara",
   serviceMessage: "Hola LAZO. Me interesa solicitar información para un servicio de cuidado o enfermería.",
