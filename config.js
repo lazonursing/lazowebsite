@@ -5,7 +5,7 @@
    Ejemplo México: 5213312345678
    ========================================================= */
 window.LAZO_CONFIG = {
-  whatsappNumber: "5213313030938",
+  whatsappNumber: "3313030938",
   email: "lazonursing@gmail.com",
   website: "https://lazonursing.github.io/lazowebsite/",
   city: "Zona Metropolitana de Guadalajara",
